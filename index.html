@@ -73,7 +73,7 @@ ul{padding:0 0 5px 5px;list-style:none}li{line-height:16px}
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:340px;" id="mySidebar"><br>
 	<div class="w3-container">
 		<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
 		  <i class="fa fa-remove"></i>
@@ -87,16 +87,20 @@ ul{padding:0 0 5px 5px;list-style:none}li{line-height:16px}
  		<script  src="./script/script.js"></script>
 		
 		<!-- Calendar -->
-		<img src="https://printcal.net/web-calendar.png?size=m&w=s&ho=04&mo=00&so=-1" alt="Printcal.net Calendar Widget" style="width:95%;height:95%"></a>
-		<br>
+		<div>
+			<iframe src="https://calendar.google.com/calendar/embed?src=kweirachmaciej%40pittsfield.net&ctz=America%2FNew_York" style="border: 0" width="100%" height="340" frameborder="0" scrolling="no"></iframe>
+		</div>
 		<br>
 
-		<!-- Sidebar YouTube -->
-		<iframe style="width:95%" src="https://www.youtube.com/embed/IsELE_impAI" title="TaconicTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<!-- Sidebar YouTube 
+		<iframe style="width:100%" src="https://www.youtube.com/embed/IsELE_impAI" title="TaconicTV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br>
+		-->
 		
 		<!-- Sidebar Search bar -->
 		<div>
-			<input type="text" id="sValue" style="width:95%" ><br>
+			<input type="text" id="sValue" style="width:100%" >
+			<br>
 			<button id="searchBtn" onclick="googlesearch()" >  &nbsp; Google &nbsp;</button> &nbsp;&nbsp;&nbsp;
 			<button id="searchBtn" onclick="bingsearch()" >  &nbsp; &nbsp; Bing &nbsp; &nbsp;</button>&nbsp;&nbsp;&nbsp;
 			<button id="searchBtn" onclick="ducksearch()" >  &nbsp; DuckGo &nbsp;</button>
